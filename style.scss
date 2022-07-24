@@ -1,0 +1,98 @@
+.header{
+    font-family: 'Henny Penny';
+}
+
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    direction: rtl;
+}
+
+$black: #0D0D0D;
+$white: #F2F2F2;
+$yellow: #F2CC0F;
+$green: #aCBF3F;
+$purple: #9453A6;
+
+.carousel{
+    margin: auto;
+}
+.spon{
+    color: $purple;
+    text-align: center;
+}
+.adlo-header{
+    text-align: center;
+
+}
+footer{
+    text-align: center;
+    
+}
+
+.header2{
+    font-family: 'Pattaya';
+}
+.hstyle{
+    color: #9453A6;
+}
+.pstyle{
+    color: #F2CC0F;
+}
+.bset{
+    border: 2px outset $white;
+    
+}
+.header2{
+    text-align: center;
+}
+
+.navbar{
+    display: block;
+    font-size: large;
+}
+.gallery{
+    margin-right: 20%;
+}
+.faq-header{
+    color: $green;
+}
+
+.sponser{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 0.2fr);
+    gap: (20px 30px);
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 0.25fr);
+    gap: 20px 20px;
+    margin-right: auto;
+    margin-right: auto;
+    justify-content: center;
+   
+}
+.videos{
+    
+    margin-right: 10%;
+    
+}
+.form-header{
+    margin-top: 50px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 0.25fr);
+}
